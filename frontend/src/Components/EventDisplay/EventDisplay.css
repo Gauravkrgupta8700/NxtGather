@@ -1,0 +1,163 @@
+.eventdisplay {
+    display: flex;
+    margin: 0px 170px;
+}
+
+.eventdisplay-left {
+    display: flex;
+    gap: 17px;
+}
+
+.eventdisplay-img-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 200px;
+    height: 200px;
+}
+
+.eventdisplay-img-list1 {
+    filter: brightness(90%);
+}
+
+.eventdisplay-img-list2 {
+    filter: sepia(90%);
+}
+
+.eventdisplay-img-list3 {
+    filter: blur(0.8px);
+}
+
+.eventdisplay-img-list4 {
+    filter: hue-rotate(90deg);
+}
+
+.eventdisplay-img-list img {
+    height: 163px;
+}
+
+.eventdisplay-main-img {
+    width: 500px;
+    height: 700px;
+}
+
+.eventdisplay-right {
+    margin: 0px 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+.eventdisplay-right h1 {
+    color: #3d3d3d;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.eventdisplay-right-star {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 13px;
+    gap: 5px;
+    color: #1c1c1c;
+    font-size: 16px;
+}
+
+.eventdisplay-right-prices {
+    display: flex;
+    margin: 40px 0px;
+    gap: 30px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.eventdisplay-right-price-old {
+    color: #818181;
+    text-decoration: line-through;
+}
+
+.eventdisplay-right-price-new {
+    color: #ff4141;
+}
+
+.eventdisplay-right-size h1 {
+    margin-top: 55px;
+    color: #656565;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.eventdisplay-right-seat {
+    display: flex;
+    margin: 30px 0px;
+    gap: 20px;
+}
+
+.eventdisplay-right-seat h1 {
+    display: flex;
+    margin: 30px 0px;
+    gap: 20px;
+    font-size: 20px;
+}
+
+.eventdisplay-right-seat div {
+    padding: 18px 24px;
+    background: #0c0564;
+    border: 1px solid #ebebeb;
+    border-radius: 3px;
+    cursor: pointer;
+    color: white;
+}
+
+.eventdisplay-right button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: 550;
+    color: rgb(247, 248, 244);
+    overflow: hidden;
+    margin-bottom: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    border-radius: 10px;
+    background: #039c9aa8;
+    /* Adjust border-radius as needed */
+}
+
+.buyticket {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.eventdisplay-right button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    box-shadow: 4px 5px 0 3px #141413;
+    /* Adjust shadow color and size */
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.eventdisplay-right button:hover::before {
+    opacity: 1;
+}
+
+.eventdisplay-right-category {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.eventdisplay-right-category span {
+    font-weight: 600;
+}

@@ -1,0 +1,39 @@
+.program {
+    width: 250px;
+    margin-right: 20px;
+}
+
+.program p {
+    margin: 6px 0ox;
+    color: rgb(1, 13, 22);
+}
+
+.program-prices {
+    display: flex;
+    gap: 20px;
+}
+
+.program-img img {
+    width: 280px;
+    height: 300px;
+    box-shadow: 5px 7px 12px rgb(2, 20, 76);
+    border: 2px solid white;
+}
+
+.program-prices-new {
+    color: #465a7a;
+    font-weight: 18px;
+    font-weight: 600;
+}
+
+.program-prices-old {
+    color: #8c8c8c;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: line-through;
+}
+
+.program:hover {
+    transform: scale(1.05);
+    transition: 0.6s;
+}
